@@ -1,0 +1,78 @@
+.a-app {
+    display: flex;
+}
+
+.a-nav {
+    min-width: 220px;
+    border: 1px solid #E0E0E0;
+}
+
+.a-logo-box {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.a-logo-box .a-toggle {
+    background-image: url(../../assets/img/toggle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+.a-logo-box .a-logo-img {
+    background-image: url(../../assets/img/cukcuk-logo.png);
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    background-size: contain;
+    cursor: pointer;
+    height: 35px;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.a-nav-box {
+    width: 100%;
+}
+
+.a-nav-item{
+    display: flex;
+	align-items: center;
+	cursor: pointer;
+	padding: 0 18px;
+	height: 44px;
+}
+
+.a-nav-item.active {
+    background-color: #019160;
+    color: white;
+}
+
+.a-nav-item:hover{
+	background-color:#E4E4E4;
+}
+.a-nav-item .a-nav-item-icon{
+	margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+
+.a-icon-dasboard {
+    background-image: url(../../assets/icon/dashboard.png);
+}
+
+.a-icon-report {
+    background-image: url(../../assets/icon/report.png);
+}
+
+.a-icon-customer {
+    background-image: url(../../assets/icon/dic-employee.png);
+}
+
+.a-icon-setting {
+    background-image: url(../../assets/icon/setting.png);
+}

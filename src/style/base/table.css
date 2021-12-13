@@ -1,0 +1,35 @@
+.a-table-box {
+    min-height: 500px;   
+}
+
+.a-table {
+    border-collapse: collapse
+}
+
+tr {
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+td, th {
+    padding: 10px;
+    text-align: left;
+}
+
+.a-text-right {
+    text-align: right;
+}
+
+.a-text-center {
+    text-align: center;
+}
+
+.a-table tbody tr:nth-child(2n+1) {
+    background-color: #f4f4f5;
+}
+
+
+.a-table tbody tr:hover {
+    background-color: #019160;
+    color: white;
+}

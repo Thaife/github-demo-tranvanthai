@@ -1,0 +1,30 @@
+.a-input {
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 40px;
+    padding: 0 16px;
+    outline: none;
+    width: 280px;
+}
+.a-input::placeholder {
+    font-size: 11px;
+    color: #bbbbbb;
+}
+
+.a-input:focus {
+    border-color: #019160;
+    color: #000000;
+}
+
+.a-input-icon {
+    background: url('../../assets/icon/search.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 16px;
+    background-size: 16px 16px;
+    padding-left: 40px;
+}
+
+.a-input-icon.error {
+    border: 1px solid #FF4747;
+}

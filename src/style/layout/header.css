@@ -1,0 +1,49 @@
+.a-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    width: 100%;
+    border: 1px solid #E0E0E0;
+}
+
+.a-restaurant {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.a-restaurant select {
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 4px;
+    min-width: 100px;
+    padding: 0 12px;
+    outline: unset;
+    font-weight: bold;
+}
+
+.a-header-owner {
+    padding-right: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.a-icon-avatar-default {
+    width: 30px;
+    height: 30px;
+    background: url(../../assets/icon/avatar-default.png);
+    background-size: contain;
+}
+
+.a-header-owner>span {
+    padding: 0 10px;
+}
+
+.a-icon-option {
+    width: 24px;
+    height: 24px;
+    background: url(../../assets/icon/option.png);
+    background-size: cover;
+}

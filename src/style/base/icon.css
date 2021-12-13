@@ -1,0 +1,9 @@
+.a-icon {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.a-icon-add-employee {
+    background: url('../../assets/icon/add.png');
+
+}

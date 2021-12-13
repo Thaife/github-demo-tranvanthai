@@ -1,0 +1,14 @@
+.a-chipStatus {
+    font-size: 11px;
+    height: 32px;
+    width: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-chipStatus.reject {
+    background-color: #FFCECE;
+    color: red;
+}

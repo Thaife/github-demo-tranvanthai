@@ -1,0 +1,30 @@
+.a-row {
+    margin-top: 4px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.a-row>label {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 8px
+}
+
+.test {
+    
+}
+
+.border-red {
+    border: 1px solid red !important;
+}
+
+.border-violet {
+    border: 1px solid violet !important;
+}
+
+.div-test {
+    position: fixed;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,34 @@
+.a-btn {
+    background-color: #019160;
+    border-radius: 4px;
+    height: 40px;
+    min-width: 100px;
+    color: #ffffff;
+    text-align: center;
+    border: unset;
+    cursor: pointer;
+    padding: 0 24px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.a-btn:hover {
+    background: #2fbe8e;
+}
+
+.a-btn:active {
+    background: #01B075;
+}
+
+.a-btn .a-btn-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: -8px;
+    margin-right: 8px;
+    background-size: cover;
+}
+
+.a-btn .a-btn-text {
+    padding-right: -8px;
+}
