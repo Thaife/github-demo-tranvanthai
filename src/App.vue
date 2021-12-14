@@ -60,6 +60,8 @@ export default {
   //     el.classList.remove('border-violet')
   //   }
   // },
+  
+  //BeforeDestroy
   beforeDestroy() {
     
   },
